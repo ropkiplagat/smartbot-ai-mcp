@@ -1,13 +1,1 @@
-{
-  "name": "smartbot-ai-mcp",
-  "version": "1.0.0",
-  "description": "AI automation services, case studies, pricing and lead capture for SmartBot AI Agency",
-  "main": "index.js",
-  "type": "module",
-  "bin": {
-    "smartbot-ai-mcp": "./index.js"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.1"
-  }
-}
+{"name":"smartbot-ai-mcp","version":"1.0.0","description":"AI automation for Australian SMEs","main":"index.js","type":"module","bin":{"smartbot-ai-mcp":"./index.js"},"dependencies":{"@modelcontextprotocol/sdk":"^1.0.1"}} 
