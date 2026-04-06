@@ -345,7 +345,7 @@ function calculateLeadLeakage(industry: string, callsPerWeek?: number, avgJobVal
 
 // ─── MAKE.COM WEBHOOK ────────────────────────────────────────────────────────
 // Replace this URL with your actual Make.com webhook URL after setup
-const MAKE_WEBHOOK_URL = process.env.MAKE_WEBHOOK_URL || "https://hook.eu2.make.com/REPLACE_WITH_YOUR_WEBHOOK";
+const MAKE_WEBHOOK_URL = process.env.MAKE_WEBHOOK_URL || "https://hook.eu1.make.com/6jud3jb64o6lp1klfxvycw460b2s9ewp";
 
 // ─── SERVER SETUP ─────────────────────────────────────────────────────────────
 
