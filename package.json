@@ -1,1 +1,1 @@
-{"name":"smartbot-ai-mcp","version":"1.0.0","description":"AI automation for Australian SMEs","main":"index.js","type":"module","bin":{"smartbot-ai-mcp":"./index.js"},"dependencies":{"@modelcontextprotocol/sdk":"^1.0.1"}} 
+{"name":"smartbot-ai-mcp","version":"1.0.0","description":"AI automation services for Australian SMEs","main":"index.js","type":"module","scripts":{"start":"node index.js"},"bin":{"smartbot-ai-mcp":"./index.js"},"dependencies":{"@modelcontextprotocol/sdk":"^1.0.1"}} 
