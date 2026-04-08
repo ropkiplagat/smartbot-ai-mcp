@@ -315,7 +315,7 @@ const LEAD_LEAKAGE_BENCHMARKS: Record<string, { answer_rate: number; avg_job_val
   default: { answer_rate: 0.60, avg_job_value: 800, calls_per_week: 15 },
 };
 
-function calculateLeadLeakage(industry: string, callsPerWeek?: number, avgJobValue?: number) {
+function calculateLeadLeakage(industry, callsPerWeek, avgJobValue) {
   const key = Object.keys(LEAD_LEAKAGE_BENCHMARKS).find(k => industry.toLowerCase().includes(k)) || "default";
   const benchmark = LEAD_LEAKAGE_BENCHMARKS[key];
 
