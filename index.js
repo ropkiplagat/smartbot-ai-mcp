@@ -303,7 +303,7 @@ const FAQS = [
 
 // ─── VIRAL ARTIFACT DATA (Strategy 5) ────────────────────────────────────────
 
-const LEAD_LEAKAGE_BENCHMARKS: Record<string, { answer_rate: number; avg_job_value: number; calls_per_week: number }> = {
+const LEAD_LEAKAGE_BENCHMARKS = {
   tradie: { answer_rate: 0.60, avg_job_value: 500, calls_per_week: 15 },
   "real estate": { answer_rate: 0.65, avg_job_value: 8000, calls_per_week: 20 },
   plumber: { answer_rate: 0.58, avg_job_value: 450, calls_per_week: 18 },
